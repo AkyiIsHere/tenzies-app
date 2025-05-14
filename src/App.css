@@ -10,7 +10,6 @@ main{
   justify-content: space-evenly;
   align-items: center;
 
-  /* gap: 40px; */
 }
 
 .title{
@@ -27,6 +26,7 @@ main{
 
 
 .dice-container{
+  width: 100%;
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 25px;
@@ -44,6 +44,13 @@ main{
 
 
   cursor: pointer;
+}
+
+.won-msg{
+  font-size: 1.25rem;
+  font-weight: 900;
+  
+  color: mediumvioletred;
 }
 
 .roll-dice-btn{
@@ -64,7 +71,6 @@ main{
   background: slateblue;
 }
 
-
 .is-held{
   background: #59e391;
 }
@@ -80,4 +86,16 @@ main{
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+}
+
+@media(max-width: 425px){
+
+  .dice-container{
+    gap: 8px;
+  }
+
+  .die{
+    width: 40px;
+    height: 40px;
+  }
 }

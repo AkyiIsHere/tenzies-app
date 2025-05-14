@@ -110,9 +110,9 @@ export default function App() {
         Roll until all dice are the same. Click each die to freeze it at its
         current value between rolls.
       </p>
+      {gameWon && <p className="won-msg">You Win!</p>}
 
       <div className="dice-container">{diceElements}</div>
-
       <button ref={buttonRef} onClick={rollDice} className="roll-dice-btn">
         {gameWon ? "New Game" : "Roll"}
       </button>

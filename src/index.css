@@ -35,4 +35,6 @@ div#root{
 
   max-width: 400px;
   max-height: 400px;
+  min-width: 300px;
+  min-height: 300px;
 }
