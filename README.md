@@ -2,6 +2,16 @@
 
 A simple and fun dice game built with React! The goal is to roll until all dice are the same. You can freeze dice between rolls to strategically reach the target.
 
+---
+
+<p align="center">
+  <a href="https://akyiishere.github.io/tenzies-app/" target="_blank">
+    <img src="https://img.shields.io/badge/Play%20the%20Game-Click%20Here-brightgreen?style=for-the-badge" alt="Play the Game Button"/>
+  </a>
+</p>
+
+---
+
 ## 🚀 Features
 
 - Roll 10 dice until they are all the same
